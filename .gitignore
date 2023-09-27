@@ -1,0 +1,38 @@
+
+
+# Python cache and compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Log files
+*.log
+
+# Database
+*.sqlite3
+
+# Swap files
+*.swp
+
+# Media uploads (if used)
+media/
+
+# Local configuration (if used)
+local_settings.py
+
+# Dependency management (may vary based on your setup)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Django-specific: Ignore database migrations
+/<nombre_de_la_app>/migrations/*.py
+/<nombre_de_la_app>/migrations/*.pyc
+
+# IDE or editor-specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
